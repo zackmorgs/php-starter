@@ -11,7 +11,7 @@
             ['url' => 'contact.php', 'label' => 'Contact']
         ]; ?>
         <?php for ($i=0; $i < count($nav_items); $i++) { ?>
-            <li>
+            <li class="nav_list_item">
                 <a href="<?php echo $nav_items[$i]['url']; ?>">
                     <?php echo $nav_items[$i]['label']; ?>
                 </a>
